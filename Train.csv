@@ -1,0 +1,191 @@
+﻿Pivot 1: Reached on time vs Count of ID,,,
+,,,
+Row Labels,Count of ID,,
+0,59.27%,,
+1,40.73%,,
+Grand Total,100.00%,,
+,,,
+,,,
+"Category 1 dominates with 59.67% of total IDs,",,,
+" while category 0 accounts for 40.33%, showing a clear majority for 1",,,
+,,,
+,,,
+,,,
+,,,
+Pivot 2:  Product Importance vs Reaached On time,,,
+,,,
+Sum of ID,Column Labels,,
+Row Labels,0,1,Grand Total
+high,207594,179305,386899
+low,1473444,1109640,2583084
+medium,1457174,873154,2330328
+Grand Total,3138212,2162099,5300311
+,,,
+"The “low” category contributes the highest total (29.75M),",,,
+" followed by medium (26.15M), while high contributes the least (4.58M)",,,
+and overall column 0 slightly exceeds column 1 in total sum.,,,
+,,,
+,,,
+,,,
+,,,
+Pivot 3: Weright in gms vs Reached on time,,,
+,,,
+Count of ID,Column Labels,,
+Row Labels,0,1,Grand Total
+1001-2000,32.23%,67.77%,100.00%
+2001-3000,0.00%,100.00%,100.00%
+3001-4000,0.11%,99.89%,100.00%
+4001-5000,56.32%,43.68%,100.00%
+5001-6000,57.48%,42.52%,100.00%
+6001-7000,0.00%,100.00%,100.00%
+7001-8000,0.00%,100.00%,100.00%
+Grand Total,40.33%,59.67%,100.00%
+,,,
+"Category 1 dominates most ID ranges (especially 2001–4000 and 6001–8000 with 100%), ",,,
+while only the 4001–6000 range shows a higher share for category 0.,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+Pivot 4: Mode of Shipment vs Reached on time,,,
+,,,
+Count of ID,Column Labels,,
+Row Labels,0,1,Grand Total
+Flight,51.26%,48.74%,100.00%
+Road,56.91%,43.09%,100.00%
+Ship,61.52%,38.48%,100.00%
+Grand Total,59.27%,40.73%,100.00%
+,,,
+"Category 1 consistently dominates across all transport modes (Flight, Road, and Ship) ",,,
+"at around 59–60%, while category 0 remains near 40% overall.",,,
+,,,
+,,,
+Pivot 5: Product importance vs average of reached on time,,,
+,,,
+Row Labels,Average of Reached.on.Time_Y.N,,
+high,64.98%,,
+low,59.28%,,
+medium,59.05%,,
+Grand Total,59.67%,,
+,,,
+High importance products are prioritized.,,,
+,,,
+,,,
+,,,
+Pivot 6: Warehouse Block vs Id,,,
+,,,
+Row Labels,Count of ID,,
+A,1833,,
+B,1833,,
+C,1833,,
+D,1834,,
+F,3666,,
+Grand Total,10999,,
+,,,
+Warehouse F handles the most orders.,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+Pivot 7: Warehouse Block vs ID vs Reached on time,,,
+,,,
+Row Labels,Count of ID,Average of Reached.on.Time_Y.N,
+A,1833,59%,
+B,1833,60%,
+C,1833,60%,
+D,1834,60%,
+F,3666,60%,
+Grand Total,10999,60%,
+,,,
+Warehouse F handles the highest order volume (3666 orders),,,
+) while maintaining stable performance at 60%.,,,
+,,,
+,,,
+,,,
+,,,
+Pivot 8: Prior purchase vs Reached on time,,,
+,,,
+Count of ID,Column Labels,,
+Row Labels,0,1,Grand Total
+2,37.48%,62.52%,100.00%
+3,35.93%,64.07%,100.00%
+4,45.66%,54.34%,100.00%
+5,50.12%,49.88%,100.00%
+6,44.03%,55.97%,100.00%
+7,32.35%,67.65%,100.00%
+8,35.16%,64.84%,100.00%
+10,42.70%,57.30%,100.00%
+Grand Total,40.33%,59.67%,100.00%
+,,,
+,,,
+Customers with 6+ prior purchases do NOT show significantly better delivery reliability.,,,
+,,,
+Pivot 9: Customer Care calls vs Reached on time,,,
+,,,
+Count of ID,Column Labels,,
+Row Labels,0,1,Grand Total
+2,34.80%,65.20%,100.00%
+3,37.49%,62.51%,100.00%
+4,40.23%,59.77%,100.00%
+5,41.58%,58.42%,100.00%
+6,48.37%,51.63%,100.00%
+7,48.37%,51.63%,100.00%
+Grand Total,40.33%,59.67%,100.00%
+,,,
+Increase in customer care calls is associated with  delivery,,,
+"performance fluctuations, indicating operational friction",,,
+,,,
+,,,
+,,,
+Pivot 10: Weight in gms vs Reached on time,,,
+,,,
+Row Labels,Average of Weight_in_gms,,
+0,4168.668395,,
+1,3272.640104,,
+Grand Total,3634.016729,,
+,,,
+"Heavier shipments are more prone to delays, ",,,
+indicating weight as a key risk factor.,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+Pivot 11: Discount Influence on Delivery Performance,,,
+,,,
+Row Labels,Average of Discount_offered,,
+0,5.545987376,,
+1,18.66372086,,
+Grand Total,13.37321575,,
+,,,
+,,,
+Orders with higher discounts tend to have better ,,,
+" on-time delivery rates, suggesting promotional ",,,
+ orders may be operationally prioritized,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+Pivot 12: Shipment Mode Distribution,,,
+,,,
+Row Labels,Count of ID,,
+Flight,16.16%,,
+Road,16.00%,,
+Ship,67.84%,,
+Grand Total,100.00%,,
+,,,
+"Nearly two-thirds of total shipments are handled via Ship mode, ",,,
+making it the dominant logistics channel and the biggest contributor ,,,
+to overall delivery performance trends.,,,
