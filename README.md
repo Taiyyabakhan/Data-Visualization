@@ -1,10 +1,12 @@
-# Data-Visualization
 Delivery Data Analysis (Excel Project)
-Overview
+📌 Overview
+
 This project analyzes delivery and logistics data using Microsoft Excel to extract meaningful business insights. The analysis focuses on understanding delivery performance, customer behavior, shipment efficiency, and factors affecting delays.
+
 Various Excel features such as Pivot Tables, Charts, Slicers, and KPIs were used to transform raw data into an interactive dashboard and actionable insights.
 
-Dataset Information
+📊 Dataset Information
+
 The dataset contains the following key fields:
 
 Column Name	Description
@@ -21,15 +23,15 @@ Discount_offered	Discount applied
 Weight_in_gms	Product weight
 Reached.on.Time_Y.N	Delivery status (0 = On-time, 1 = Delayed)
 Month	Month of shipment
-
-Project Structure
+📂 Project Structure
 Sheet Name	Description
 Raw Data	Original dataset
 Pivot Tables	Data summaries using pivot tables
 Dashboard	Interactive dashboard with charts, KPIs, and slicers
+🔍 Analysis Performed
 
-Analysis Performed
 The following analyses were conducted:
+
 Delivery performance (On-time vs Delayed)
 Shipment mode impact on delivery
 Product importance vs delivery status
@@ -38,16 +40,14 @@ Weight distribution analysis
 Customer care calls vs delivery
 Monthly delivery trend analysis
 Correlation between key variables
-
-Tools Used
+🛠️ Tools Used
 Microsoft Excel
 Pivot Tables
 Pivot Charts
 Slicers
 Conditional Formatting
 Aggregation Functions (COUNT, AVERAGE)
-
-Key Insights
+📈 Key Insights
 Majority of deliveries are delayed, indicating operational inefficiency
 Ship mode has the highest delays compared to other shipment methods
 Higher discounts are associated with more delayed deliveries
@@ -56,8 +56,7 @@ Increased customer care calls indicate delivery issues and dissatisfaction
 Heavier products are delivered more efficiently than lighter ones
 Delays remain consistent across all months, showing a systemic issue
 Discount, shipment mode, and product importance are key drivers of delays
-
-Dashboard Features
+📊 Dashboard Features
 Interactive Slicers:
 Month
 Mode of Shipment
@@ -68,7 +67,6 @@ On-Time Delivery %
 Delay %
 Average Discount
 Average Customer Calls
-
 Visualizations Used:
 Bar Chart
 Stacked Column Chart
@@ -76,22 +74,24 @@ Donut Chart
 Line Chart
 Area Chart
 Scatter Plot
-
-How to Use
+Histogram
+Box Plot
+▶️ How to Use
 Open the Excel file
 Go to the Raw Data sheet to view original data
 Explore Pivot Tables for summarized insights
 Navigate to the Dashboard sheet
 Use Slicers to filter and interact with data dynamically
+🎯 Learning Outcomes
 
-Learning Outcomes
 This project helped in developing:
+
 Data cleaning and preparation skills
 Pivot table creation and analysis
 Data visualization techniques in Excel
 Dashboard design and interactivity
 Business insight generation from logistics data
-
 Author
+
 Taiyyaba Khan
 B.Tech IT Student
