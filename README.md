@@ -1,49 +1,94 @@
-Delivery Data Analysis (Excel Project)
+#  Delivery Data Analysis (Excel Project)
 
-Overview
+## Overview
+This project analyzes delivery and logistics data using Microsoft Excel to extract meaningful business insights. The analysis focuses on delivery performance, shipment efficiency, and factors affecting delays.
 
-This project analyzes delivery and logistics data using Microsoft Excel to extract meaningful business insights. The analysis focuses on understanding delivery performance, customer behavior, shipment efficiency, and factors affecting delays.
+---
 
-Various Excel features such as Pivot Tables, Charts, and Slicers were used to transform raw data into an interactive dashboard and actionable insights.
+##  Dataset Information
 
+| Column Name | Description |
+|------------|------------|
+| ID | Unique shipment ID |
+| Warehouse_block | Warehouse location |
+| Mode_of_Shipment | Shipment method |
+| Customer_care_calls | Number of calls |
+| Customer_rating | Rating |
+| Cost_of_the_Product | Product cost |
+| Prior_purchases | Previous purchases |
+| Product_importance | Importance level |
+| Gender | Customer gender |
+| Discount_offered | Discount |
+| Weight_in_gms | Product weight |
+| Reached.on.Time_Y.N | 0 = On-time, 1 = Delayed |
+| Month | Month |
 
-Dataset Information
+---
 
-The dataset contains the following key fields:
+##  Project Structure
 
-| Column Name         | Description                                |
-| ------------------- | ------------------------------------------ |
-| ID                  | Unique shipment ID                         |
-| Warehouse_block     | Warehouse location block                   |
-| Mode_of_Shipment    | Shipment method (Ship, Flight, Road)       |
-| Customer_care_calls | Number of customer calls                   |
-| Customer_rating     | Customer satisfaction rating               |
-| Cost_of_the_Product | Product cost                               |
-| Prior_purchases     | Number of previous purchases               |
-| Product_importance  | Importance level (Low, Medium, High)       |
-| Gender              | Customer gender                            |
-| Discount_offered    | Discount applied                           |
-| Weight_in_gms       | Product weight                             |
-| Reached.on.Time_Y.N | Delivery status (0 = On-time, 1 = Delayed) |
-| Month               | Month of shipment                          |
+- Raw Data  
+- Pivot Tables  
+- Dashboard  
 
-Project Structure
+---
 
-| Sheet Name   | Description                                          |
-| ------------ | ---------------------------------------------------- |
-| Raw Data     | Original dataset                                     |
-| Pivot Tables | Data summaries using pivot tables                    |
-| Dashboard    | Interactive dashboard with charts, KPIs, and slicers |
+##  Analysis Performed
 
-Analysis Performed
+- Delivery performance analysis  
+- Shipment mode impact  
+- Product importance vs delay  
+- Discount vs delay  
+- Weight distribution  
+- Customer calls analysis  
+- Monthly trend analysis  
+- Correlation analysis  
 
-The following analyses were conducted:
-Delivery performance (On-time vs Delayed)
-Shipment mode impact on delivery
-Product importance vs delivery status
-Discount impact on delays
-Weight distribution analysis
-Customer care calls vs delivery
-Monthly delivery trend analysis
-Correlation between key variables
+---
 
+##  Key Insights
+
+- Majority deliveries are delayed  
+- Ship mode causes highest delays  
+- Higher discounts lead to delays  
+- Low priority products are delayed more  
+- Customer complaints increase with delays  
+- Heavier products perform better  
+- Delays are consistent across months  
+
+---
+
+##  Dashboard Features
+
+### Charts:
+- Bar Chart  
+- Donut Chart  
+- Line Chart  
+- Area Chart  
+- Scatter Plot  
+- Histogram  
+
+---
+
+##  How to Use
+
+1. Open Excel file  
+2. Check Raw Data  
+3. Explore Pivot Tables  
+4. Use Dashboard & slicers  
+
+---
+
+## Learning Outcomes
+
+- Data analysis in Excel  
+- Pivot tables & charts  
+- Dashboard creation  
+- Business insights  
+
+---
+
+##  Author
+
+**Taiyyaba Khan**  
+B.Tech IT Student
