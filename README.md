@@ -65,8 +65,7 @@ This project analyzes delivery and logistics data using Microsoft Excel to extra
 - Donut Chart  
 - Line Chart  
 - Area Chart  
-- Scatter Plot  
-- Histogram  
+- Scatter Plot   
 
 ---
 
